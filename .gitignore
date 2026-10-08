@@ -21,6 +21,9 @@ htmlcov/
 # Generated model artifacts
 artifacts/
 
+# Local reports
+reports/
+
 # Local secrets (keep example configuration)
 .env
 .env.*
