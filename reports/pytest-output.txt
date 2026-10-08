@@ -1,0 +1,19 @@
+============================= test session starts ==============================
+platform linux -- Python 3.12.3, pytest-9.1.1, pluggy-1.6.0 -- /home/mhdrefdi/dev/analisis-sentimen-kahutla/.venv/bin/python3
+cachedir: .pytest_cache
+rootdir: /home/mhdrefdi/dev/analisis-sentimen-kahutla
+configfile: pyproject.toml
+testpaths: tests
+collecting ... collected 8 items
+
+tests/test_pipeline.py::test_preprocessing PASSED                        [ 12%]
+tests/test_pipeline.py::test_dataset_and_split PASSED                    [ 25%]
+tests/test_pipeline.py::test_reference_chains_and_duplicates PASSED      [ 37%]
+tests/test_pipeline.py::test_validation[label] PASSED                    [ 50%]
+tests/test_pipeline.py::test_validation[empty_text] PASSED               [ 62%]
+tests/test_pipeline.py::test_validation[duplicate_id] PASSED             [ 75%]
+tests/test_pipeline.py::test_validation[missing_column] PASSED           [ 87%]
+tests/test_pipeline.py::test_train_reload_and_cli PASSED                 [100%]
+
+- generated xml file: /home/mhdrefdi/dev/analisis-sentimen-kahutla/reports/pytest-results.xml -
+============================== 8 passed in 3.46s ===============================
